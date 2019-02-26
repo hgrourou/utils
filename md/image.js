@@ -1,3 +1,7 @@
+// 最近需要展示图片, 对图片处理的一些总结
+
+// URL => base64 => blob => base64
+
 urlToBase64(url) {
   return new Promise ((resolve,reject) => {
       let image = new Image();
